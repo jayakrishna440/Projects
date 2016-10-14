@@ -1,10 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
+<!Doctype html>
+<html>
+<!--head-->
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <!--The title of my site-->
+    <title> Jay site </title>
+    <!--styles my site-->
+    <style>
 
+    </style>
+    <!--javascript of my site-->
+    <script>    </script>
+    <!--It is specify the base of the my web page. This is optional-->
+    <base href="/home">
+    <!--links-->
+    <link href="C:/jayafork/uiOct2016Class/10_13_2016/jay/styles/jay.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!--meta data is used to describe the meta information which belongs to my employee form-->
+    <meta name ="description" content ="This is the official site of the new employee form for submit the details of employee" >
+    <meta name ="keyword" content ="employee form,form,employee" >
+    <meta charset ="UTF-8">
+    <meta name ="aurthor" content ="jay">
+</head>
+<!--body of my site -->
+<body>
+<!--This is the main article for the employee form-->
+<article>
+    <!--this is the header-->
+    <header>
+        <h1>New Employee Form</h1>
+    </header>
+    <br>
+
+    <!--main section of the employee form-->
+    <section>
+
+        <!--This is the form of the employee-->
+        <form class="one">
+            <!--first name of the employee-->
+
+            <label for ="Firstname"> 1. Employee Firstname:  </label>
+            <input type ="text" id ="Firstname" name ="Firstname" placeholder ="Firstname"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <!--lastname of the employee-->
+            <label for="Lastname">Employee Lastname:  </label>
+            <input type ="Lastname" id ="Lastname" name ="Lastname" placeholder ="Lastname"/>
+            <br>
+            <br>
+            <div>
+                <!--phonenumber of the employee-->
+                <label for="Phonenumber">2. Employee Contact Number:</label>
+                <input type ="text" id = "Phonenumber" name="Phonenumber" placeholder ="Phone Number"/>
+            </div>
+            <br>
+            <!--gender of the employee-->
+            <div>
+                <label for="gender"> 3. Gender:</label>
+
+                <!-- if male-->
+                <label for="male">male:</label>
+                <input type="radio" id ="male" name ="gender" value="male" />
+                <!--if female-->
+                <label for="female">female:</label>
+                <input type ="radio" id ="female" name ="gender" value="female" />
+            </div>
+            <br>
+            <!-- employee physically handicapped or, not -->
+
+            <label for="physicallyhandicapped">4. Employee Physical Disability ?</label>
+
+            <!--if employee has disability -->
+            <label for="yes"> yes: </label>
+            <input type="checkbox" id ="yes" name ="physicallyhandicapped" value ="yes"/>
+            <!-- if employee don't have disability -->
+            <label for ="no"> no: </label>
+            <input type="checkbox" id ="no" name ="physicallyhandicapped" value ="no"/>
+            <br>
+            <br>
+            <!--submit and reset buttons-->
+            <button type="submit" id="submit" class="btn btn-success">
+                <span>Submit</span>
+            </button>
+            &nbsp;
+            <!--Reset button-->
+            <button id="reset" id="reset" class="btn btn-primary">
+                <span>Cancel</span>
+            </button>
+            <br>
+            <br>
+            <br>
+            &nbsp;&nbsp;
+            <!--Email Id of the employee-->
+            <label for ="Emailid">Email ID:</label>
+            <input type ="text" id ="Emailid" name ="Emailid" placeholder="Emailid"/>
+            <br>
+            <br>
+            &nbsp;&nbsp;
+            <!--password of the employee-->
+            <label for="password">Password: </label>
+            <input type="password" id ="password" name ="password" placeholder ="Enter your Password"/>
+
+        </form>
+    </section>
+    <br>
+    <br>
+    <!--This is footer -->
+    <footer>My Employee Form </footer>
+</article>
 </body>
 </html>
