@@ -1,0 +1,18 @@
+form{
+     border:2px solid #000;
+
+}
+
+input{
+     display: block;
+
+
+}
+button[type="reset"]{
+    background-color:#f00;
+    color:#eee;
+}
+button[type="submit"]{
+    background-color:#00f;
+    color:#eee;
+
