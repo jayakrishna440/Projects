@@ -1,99 +1,99 @@
 <!DOCTYPE html>
 <html>
 
-   <head>
-    <title> Jay site </title>
-    <!--styles my site-->
-    <style></style>
-        <!--javascript of my site-->
-    <script></script>
-    <link rel="stylesheet" href="../Styles1/styles.css"/>
+        <head>
+            <title> Jay site </title>
+             <!--styles my site-->
+            <style></style>
+            <!--javascript of my site-->
+            <script></script>
+            <link rel="stylesheet" href="../Styles1/styles.css"/>
 
-    <!--It is specify the base of the my web page. This is optional-->
-    <base href="/home">
-    <!--meta data is used to describe the meta information which belongs to my employee form-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!--It is specify the base of the my web page. This is optional-->
+            <base href="/home">
+            <!--meta data is used to describe the meta information which belongs to my employee form-->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name ="description" content ="This is the official site of the new employee form for submit the details of employee" >
+            <meta name ="description" content ="This is the official site of the new employee form for submit the details of employee" >
 
-    <meta charset ="UTF-8">
+            <meta charset ="UTF-8">
 
-   </head>
-    <!--body of my site -->
-    <body>
-        <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#Research">Research</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-            <!--This is the main article for the employee form-->
+        </head>
+            <!--body of my site -->
+        <body>
+                <!--This is the main article for the employee form-->
             <article>
-                <!--this is the header-->
-                <header>
-                 <h1>New Employee Form</h1>
-                </header>
+                     <!--this is the header-->
+                <header><h1>New Employee Form</h1></header>
                 <br>
-
-                <!--main section of the employee form-->
+                    <!--main section of the employee form-->
                 <section>
+                        <nav>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#Research">Research</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#about">About</a></li>
+                            </ul>
+                        </nav>
                         <!--This is the form of the employee-->
                         <form>
                             <!--first name o the employee-->
-
-                                 <label for ="Firstname">  Employee Firstname:  </label>
-                                 <input type ="text" id ="Firstname" name ="Firstname" placeholder ="Firstname"/>
+                            <label for ="Firstname">  Employee Firstname:  </label>
+                            <input type ="text" id ="Firstname" name ="Firstname" placeholder ="Firstname"/>
 
 
                                 <!--lastname of the employee-->
-                                <label for="Lastname">  Employee Lastname:  </label>
-                                <input type= "text" id ="Lastname" name ="Lastname" placeholder ="Lastname"/>
+                            <label for="Lastname">  Employee Lastname:  </label>
+                            <input type= "text" id ="Lastname" name ="Lastname" placeholder ="Lastname"/>
 
 
                                 <!--phonenumber of the employee-->
-                                <label for="Phonenumber">  Employee Contact Number:</label>
-                                <input type ="text" id = "Phonenumber" name="Phonenumber" placeholder ="Phone Number"/>
+                            <label for="Phonenumber">  Employee Contact Number:</label>
+                            <input type ="text" id = "Phonenumber" name="Phonenumber" placeholder ="Phone Number"/>
 
                                  <!--gender of the employee-->
-                                 <label for="gender">  Gender:</label><br>
+                            <label for="gender">  Gender:</label><br>
                                     <!-- if male-->
-                                 <label for="male"> male:</label>
-                                 <input type="radio" id ="male" name ="gender" value="male" />
+                            <label for="male"> male:</label>
+                            <input type="radio" id ="male" name ="gender" value="male" />
                                     <!--if female-->
-                                 <label for="female"> female:</label>
-                                 <input type ="radio" id ="female" name ="gender" value="female" />
+                            <label for="female"> female:</label>
+                            <input type ="radio" id ="female" name ="gender" value="female" />
 
                                 <!-- employee physically handicapped or, not -->
-                                 <label for="handicapped">  If your handicapped ?</label>
+                            <label for="handicapped">  If your handicapped ?</label>
                                 <!--if employee has disability -->
-                                 <input type="checkbox"  name ="handicapped"/>
+                            <input type="checkbox"  name ="handicapped"/>
 
                                 <!--Email Id of the employee-->
-                                <label for ="Emailid">  Email ID:</label>
-                                <input type ="text" id ="Emailid" name ="Emailid" placeholder=" Emailid"/>
+                            <label for ="Emailid">  Email ID:</label>
+                            <input type ="text" id ="Emailid" name ="Emailid" placeholder=" Emailid"/>
 
                                  <!--password of the employee-->
-                                 <label for="password">  Password: </label>
-                                 <input type="password" id ="password" name ="password" placeholder =" Enter your Password"/>
+                            <label for="password">  Password: </label>
+                            <input type="password" id ="password" name ="password" placeholder =" Enter your Password"/>
 
                                  <!--submit and reset buttons-->
-                             <br>
-                                &nbsp;&nbsp;
-                            <center><button type="submit" id="submit">
-                                <span>Submit</span>
+                            <br>
+
+                            <center>
+                                    <button type="submit" id="submit">
+                                        <span>Submit</span>
                                     </button>
                                     <!--Reset button-->
                                    <button type="reset" id="reset">
                                         <span>Cancel</span>
-                                   </button></center>
+                                   </button>
+                            </center>
                         </form>
                 </section>
 
                 <br>
-                 <br>
+                <br>
                 <!--This is footer -->
                 <footer>My Employee Form </footer>
             </article>
-    </body>
+        </body>
 </html>
