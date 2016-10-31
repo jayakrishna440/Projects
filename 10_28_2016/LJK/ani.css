@@ -22,7 +22,7 @@
 }
 
 .scroll-content{
-    position: relative;
+    position: absolute;
     -webkit-animation: scroll-Content 20s infinite;
     -moz-animation: scroll-Content 20s infinite;
     -o-animation: scroll-Content 20s infinite;
