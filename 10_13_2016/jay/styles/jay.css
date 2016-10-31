@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 form{
      border:2px solid #000;
 
@@ -17,13 +17,4 @@ button[type="submit"]{
     background-color:#00f;
     color:#eee;
 
-=======
-form{
-     border-style:solid;
-     border-width:2px;
 
-}
- input{
-     display:block;
-}
->>>>>>> def541962d129fa04c673c5e15bcd6bbc5669ba2
