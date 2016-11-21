@@ -1,0 +1,17 @@
+.jay-column(@size;@screen-width) when(@size <= 12){
+    .column-@{screen-width}-@{size} {
+        width: 100% / (12/@size);
+    }
+    .jay-column((@size+1);@screen-width);
+}
+.rows{
+    &::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+}
+
+
+
+

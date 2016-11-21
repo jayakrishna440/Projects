@@ -1,3 +1,34 @@
+@keyframes bike {
+    0%    {
+    left:0px; top:100px;
+    }
+    25%   {
+    left:200px; top:100px;
+    }
+    50%  {left:200px; top:200px;
+    }
+    75%  {
+    left:0px; top:200px;
+    }
+    100% {
+    left:0px; top:300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes scroll-Content{
     0% {
         left:-60%;
@@ -17,19 +48,17 @@
     100%{
         left:60%
     }
-
-    position:fixed;
 }
 
 .scroll-content{
-    position: relative;
+    position: absolute;
     -webkit-animation: scroll-Content 20s infinite;
     -moz-animation: scroll-Content 20s infinite;
     -o-animation: scroll-Content 20s infinite;
     -ms-animation: scroll-Content 20s infinite;
     animation: scroll-Content 20s infinite;
 }
-#main-header:hover{
+/*#main-header:hover{
     position:absolute;
    -webkit-animation:rotateZ(150deg);
    -moz-animation:rotateZ(150deg);
@@ -49,4 +78,5 @@
     -o-transition: width 2;
     -ms-transition: width 2;
     transition: width 2;
-}
+}*/
+
