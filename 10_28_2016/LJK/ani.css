@@ -1,0 +1,86 @@
+@keyframes bike {
+    0%    {
+    left:0px; top:100px;
+    }
+    25%   {
+    left:200px; top:100px;
+    }
+    50%  {left:200px; top:200px;
+    }
+    75%  {
+    left:0px; top:200px;
+    }
+    100% {
+    left:0px; top:300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes scroll-Content{
+    0% {
+        left:-60%;
+    }
+    20% {
+        left:-30%;
+    }
+    40% {
+        left:0%;
+    }
+    60% {
+        left:30%
+    }
+    80% {
+        left:45%;
+    }
+    100%{
+        left:60%
+    }
+}
+
+.scroll-content{
+    position: absolute;
+    -webkit-animation: scroll-Content 20s infinite;
+    -moz-animation: scroll-Content 20s infinite;
+    -o-animation: scroll-Content 20s infinite;
+    -ms-animation: scroll-Content 20s infinite;
+    animation: scroll-Content 20s infinite;
+}
+/*#main-header:hover{
+    position:absolute;
+   -webkit-animation:rotateZ(150deg);
+   -moz-animation:rotateZ(150deg);
+   -o-animation:rotateZ(150deg);
+   -ms-animation:rotateZ(150deg);
+   animation:rotateZ(150deg);
+}
+#main-header{
+    -webkit-transition-timing-function:ease-in-out;
+    -moz-transition-timing-function:ease-in-out;
+    -o-transition-timing-function:ease-in-out;
+    -ms-transition-timing-function:ease-in-out;
+    transition-timing-function: ease-in-out;
+
+    -webkit-transition: width 2;
+    -moz-transition: width 2;
+    -o-transition: width 2;
+    -ms-transition: width 2;
+    transition: width 2;
+<<<<<<< HEAD
+}*/
+
+=======
+}
+>>>>>>> e3b0f1f9cd0df3a39f880ef611d416d2326ffe80
