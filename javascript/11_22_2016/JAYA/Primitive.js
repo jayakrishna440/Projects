@@ -21,11 +21,11 @@ var a=null;
 
 var b=undefined;
 
-console.log(x)
-console.log(y)
-console.log(string)
-console.log(string1)
-console.log(truth)
-console.log(wrong)
-console.log(a)
-console.log(b)
+console.log(x);
+console.log(y);
+console.log(string);
+console.log(string1);
+console.log(truth);
+console.log(wrong);
+console.log(a);
+console.log(b);
