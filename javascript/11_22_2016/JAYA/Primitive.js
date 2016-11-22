@@ -28,4 +28,4 @@ console.log(string1);
 console.log(truth);
 console.log(wrong);
 console.log(a);
-console.log(b);
+console.log(b)

@@ -1,4 +1,11 @@
+
+<!--main document type of the web page-->
 <!DOCTYPE html>
+
+<!--default html language to be english-->
+
+<!DOCTYPE html>
+
 
 <html lang="en">
 
@@ -6,6 +13,30 @@
     <head>
         <!--title - this is the title of this html file-->
         <title>DMV New License Form</title>
+
+        <!--style - this is used to write CSS style on the html file itself-->
+        <style>
+            body{
+                background-color: #eeeeee;
+            }
+        </style>
+        <!--script - this is used to write javascript on the html file itself-->
+        <script>
+
+        </script>
+        <!--link - this is used to link an external source-->
+        <!--this is used to source only css files and images-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+        <!--base - this used to specify the base URL of our web page-->
+        <!--this is optional and to be written based on server configuration-->
+        <base href="/home" />
+
+        <!--meta - this is used to describe more mata information which are not covered by the above five-->
+        <meta name="description" content="This is the official DMV website for applying license"/>
+        <meta name="keywords" content="DMV, license, license form, form, applicant" />
+        <meta charset="UTF-8" />
+
 
         <!--this is internal style-->
         <style>
@@ -16,11 +47,14 @@
 
         <!--this is external style-->
         <link href="../styles/styles.css" rel="stylesheet"/>
+
     </head>
 
     <!--body of the web page-->
     <!--body is the rendering part of the html-->
+
     <!--this is inline/attribute style-->
+
     <body>
 
         <!--main article for forms-->
@@ -44,7 +78,11 @@
                     <!--Last Name-->
                     <div>
                         <label for="lastName">Applicant's Last Name:</label>
+
+                        <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name" />
+
                         <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name" style="background-color: #fff;"/>
+
                     </div>
                     <br />
                     <!--Phone Number-->
@@ -81,6 +119,13 @@
                         <span>Cancel</span>
                     </button>
                 </form>
+
+
+
+                <aside>
+                    <iframe src="C:/uiOct2016Class/uiOct2016Class/10_12_2016/hello.html"></iframe>
+                </aside>
+
             </section>
 
             <!--footer of the page-->
