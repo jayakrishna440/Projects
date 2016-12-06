@@ -1,32 +1,32 @@
 (function(){
     function one(){
         var total = this;
-        total.sum=null;
-        total.diff=null;
-        total.mult=null;
-        total.div=null;
+        total.addition=null;
+        total.subtraction=null;
+        total.product=null;
+        total.dividend=null;
 
         function two(a, b){
             var mathematics = this;
-            mathematics.add = function(a,b){
+            mathematics.sum = function(a,b){
                     return (a + b)
             };
-            mathematics.subtraction = function(a,b){
+            mathematics.diff = function(a,b){
                     return (a - b)
             };
-            mathematics.product = function(a,b){
+            mathematics.mult = function(a,b){
                     return (a * b)
             };
-            mathematics.dividend = function(a,b){
+            mathematics.div = function(a,b){
                     return (a/b)
             };
         }
 
          var math = new two();
-          total.sum = math.add(4,2);
-          total.diff = math.subtraction(4,2);
-          total.mult = math.product(4,2);
-          total.div = math.dividend(4,2);
+          total.addition = math.sum(4,2);
+          total.subtraction = math.diff(4,2);
+          total.product = math.mult(4,2);
+          total.dividend = math.div(4,2);
     }
 var result = new one();
 console.log(result);
