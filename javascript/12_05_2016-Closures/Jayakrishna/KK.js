@@ -22,11 +22,11 @@
             };
         }
 
-         var math = new two(24,22);
-          total.sum = math.add();
-          total.diff = math.subtraction();
-          total.mult = math.product();
-          total.div = math.dividend();
+         var math = new two();
+          total.sum = math.add(4,2);
+          total.diff = math.subtraction(4,2);
+          total.mult = math.product(4,2);
+          total.div = math.dividend(4,2);
     }
 var result = new one();
 console.log(result);
