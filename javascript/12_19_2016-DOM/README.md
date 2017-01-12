@@ -8,7 +8,6 @@ This window object holds all the html document(s).
 
 **From JS's prospective, the entire html is now called as 'document'
 
-
 window object is the parent of all. This window object is basically our browser inside js
 each html now becomes a document, as a property, inside this window object.
 
@@ -44,7 +43,7 @@ as an argument.
     })(window);
     
     // for jquery
-    (function($){
+    (function($){ 
         var heading = $('#heading');
     })(window.jQuery);
     

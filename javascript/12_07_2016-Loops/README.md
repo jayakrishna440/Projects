@@ -124,7 +124,7 @@ CONDITIONS IN JS
             if(<condition>){
                 // logic to be executed if <condition> is true
             }
-            else{
+            els********__````__********e{
                 // logic to be executed if <condition> is false
             }
          *** else block is optional  
