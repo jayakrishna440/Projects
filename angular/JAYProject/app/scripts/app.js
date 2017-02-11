@@ -1,30 +1,23 @@
+//iife construct
+
+(function(angular){
 'use strict';
 
-/**
- * @ngdoc overview
- * @name loginportalappApp
- * @description
- * # loginportalappApp
- *
- * Main module of the application.
- */
-angular
-  .module('loginportalappApp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
-  ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+  angular
+  .module('jayprojectApp',[
+        'ngAnimate',
+        'ngCookies',
+        'ngAnimateMock',
+        'ngResource',
+        'ngRoute',
+        'ngSanitize',
+        'ngTouch',
+        'jayprojectApp.Controllers'
+
+  ]);
+
+
+//creating a new module for both contollers
+angular.module('jayprojectApp.Controllers',[]);
+
+})(window.angular || (window.angular = {}));

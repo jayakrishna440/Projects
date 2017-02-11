@@ -8,9 +8,6 @@ less can reuse the style
 
 
 
-
-
-
 to compile the less file, syntax is:
 lessc <source to less file>  >  <destination of css file>
 
